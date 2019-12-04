@@ -30,6 +30,8 @@ set shiftwidth=4
 set tabstop=4
 set autoindent
 set expandtab
+set path=**
+set noswapfile
 
 let mapleader="\<space>"
 nnoremap <leader>; A;<esc>
@@ -37,3 +39,5 @@ nnoremap <leader>ev :sp ~/.config/nvim/init.vim<cr>
 nnoremap <leader>lv :source ~/.config/nvim/init.vim<cr>
 nnoremap <c-p> :Files<cr>
 nnoremap <c-f> :Ag<space><cr>
+nnoremap <C-j> :m+<cr>
+nnoremap <C-k> :m-2<cr>
